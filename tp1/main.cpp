@@ -15,9 +15,6 @@ using namespace std;
 
 bool es_numero (string);
 void convertir_enteros_a_romanos (void);
-//void cargar_numeros_arabicos (string, int *);
-
-
 
 const char * simbolos[4][10] = {
 {"","M","MM","MMM","","","","","",""},
@@ -39,17 +36,9 @@ bool es_numero (string cadena)
 			return false;
 	return true;
 }
-/*
-void cargar_numeros_arabicos (int largo,string cadena, int * numero_arabicos)
-{
-	for (int i = 0; cadena[i]; i++)
-	{
-	
-	}
-}
-*/
 
-void convertir_enteros_a_romanos (void)
+
+void convertir_enteros_a_romanos (const string argv[], int argc)
 {
 	string cadena;
 	ifstream entrada ("valores.txt");
@@ -99,5 +88,3 @@ void convertir_enteros_a_romanos (void)
 
 	//ofstream salida ("romanos.txt");	
 }
-
-
