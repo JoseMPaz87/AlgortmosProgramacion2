@@ -1,0 +1,5 @@
+0 está fuera del rango a convertir
+-10 está fuera del rango a convertir
+3336402735171707160320 está fuera del rango a convertir
+3001 está fuera del rango a convertir
+34af no es un número arabe

@@ -9,10 +9,10 @@ all: tp1
 tp1: $(OBJS)	
 	$(CC) $(LDFLAGS) -o tp1 $(OBJS)
 
-main.o: main.cpp arabicos_a_romanos.h
+main.o: main.cpp arabicos_a_romanos.h 
 	$(CC) $(CXXFLAGS) -c main.cpp
 
-arabicos_a_romanos.o: arabicos_a_romanos.cpp arabicos_a_romanos.h tipos.h
+arabicos_a_romanos.o: arabicos_a_romanos.cpp arabicos_a_romanos.h
 	$(CC) $(CXXFLAGS) -c arabicos_a_romanos.cpp
 	
 clean:

@@ -1,5 +1,6 @@
 #ifndef _ARABICOS_A_ROMANOS_H_
 #define _ARABICOS_A_ROMANOS_H_
+
 #include <iostream>
 #include <fstream>
 #include <sstream>
@@ -7,7 +8,6 @@
 #include <ctype.h>
 #include <cstdlib>
 #include <errno.h>
-#include "tipos.h"
 
 using namespace std;
 
@@ -17,7 +17,9 @@ using namespace std;
 #define NUMERO_MINIMO 0
 #define RANGO 4//Para no pasarme de los cuatro digitos
 
-void imprimir_numero_romano (int numero_arabe);
+void convertir_arabes_a_romanos (int numero_decimal[], ofstream & salida);
+void cargar_numero_decimal (int numero_decimal[], int numero_arabe);
+void imprimir_numero_romano (int numero_arabe, ofstream & salida);
 void enteros_a_romanos(void);
 
 #endif
