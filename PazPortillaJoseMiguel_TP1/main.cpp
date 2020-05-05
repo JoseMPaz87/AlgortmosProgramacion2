@@ -14,8 +14,13 @@ se debe escribir "./tp1"
 
 using namespace std;
 
-int main (void)
+int main(int argc, char * const argv[])
 {
-	enteros_a_romanos();
+	if (argc != 2)
+	{
+		cout << "Error, debe tener 2 argumentos" << endl;
+		return 1;
+	}
+	enteros_a_romanos(argv[1]);
 	return 0;
 }

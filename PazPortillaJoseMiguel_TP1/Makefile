@@ -1,5 +1,5 @@
 CC = g++   #g++ o clang++
-CXXARGS  = -g -Wall 
+CXXARGS  = -g -Wall -O2
 CXXFLAGS = -I. $(CXXARGS)
 LDFLAGS  = -g 
 OBJS = main.o arabicos_a_romanos.o 

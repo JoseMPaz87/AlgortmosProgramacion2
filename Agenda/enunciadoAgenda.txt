@@ -1,0 +1,33 @@
+Se desea crear una agenda, con la que se pueda:
+
+    -Ver todos los contactos
+    -Eliminar un contacto
+    -Agregar un contacto
+    -Buscar un contacto (por numero)
+
+Y, obviamente, dé la opción al usuario de elegir una acción.
+
+Todos los cambios deben verse reflejados al volverse a abrir la aplicación (volver a correr el programa).
+
+Todos los contactos tienen un
+
+    -Nombre
+    -Telefono (todos los teléfonos son de 10 números)
+
+En caso de:
+
+    -No haber contactos en la agenda al querer ver todos los contactos
+    -No encontrar el contacto a eliminar
+    -No encontrar el contacto buscado
+    -No encontrar el archivo con los contactos
+    -Ya existir el numero en los contactos
+
+Se deberá indicar el problema al usuario y este debe poder volver a elegir una acción a realizar (en el caso de no encontrar el archivo con los contactos,
+se debe crear el archivo).
+
+Los contactos deberán ser creados de forma dinámica y, también, la agenda.
+
+Nota: Al principio del archivo de contactos se encuentra la cantidad de contactos.
+
+Recomendación:  Crear un struct contacto.
+                Pensar en el tipo de dato que albergará a el numero de Telefono.
