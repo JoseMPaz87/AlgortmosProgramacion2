@@ -1,0 +1,2 @@
+Realice un programa para leer datos de -estudiantes- de un archivo (estudiantes.txt). 
+Cada estudiante tiene un padron, apellido y nombre. El programa tiene que alocar cada "estudiante" en memoria dinámica y contar a su vez con un vector de estudiantes (también en memoria dinámica). Luego debe imprimir la lista de estudiantes y liberar memoria correctamente. Considere un vector de maximo 20 estudiantes.

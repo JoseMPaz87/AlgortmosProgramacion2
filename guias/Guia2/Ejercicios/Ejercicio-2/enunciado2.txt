@@ -1,0 +1,4 @@
+﻿Realice un programa para leer inscripciones a materias de la universidad de un archivo. 
+Cada materia tiene distintas cátedras/comisiones y cada comisión una cantidad de alumnos inscriptos.
+Alocar una matriz dinamica que contenga por cada materia y comisión la cantidad de inscriptos. 
+Luego imprimir la materia con mayor cantidad de inscriptos en la universidad y la comisión mas numerosa.

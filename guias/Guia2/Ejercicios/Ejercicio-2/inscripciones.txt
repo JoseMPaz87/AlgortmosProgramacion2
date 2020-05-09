@@ -1,0 +1,559 @@
+Padron: 88119
+Apellido: Vazquez
+Nombre: Agostina
+Materia: 7541
+Comision: 001
+Fin
+
+Padron: 99122
+Apellido: Velasco
+Nombre: Ignacio
+Materia: 7501
+Comision: 003
+Fin
+
+Padron: 10024
+Apellido: Donato
+Nombre: Juan
+Materia: 7519
+Comision: 002 
+Fin
+
+Padron: 96461
+Apellido: Pereyra
+Nombre: Matias
+Materia: 7513
+Comision: 001
+Fin
+
+Padron: 93123
+Apellido: Turtula
+Nombre: Emanuel
+Materia: 7529
+Comision: 001
+Fin
+
+Padron: 99043
+Apellido: Cuenca
+Nombre: Matilde
+Materia: 7528
+Comision: 001
+Fin
+
+Padron: 98422
+Apellido: Ruiz
+Nombre: Santiago
+Materia: 7542
+Comision: 001
+Fin
+
+Padron: 99118
+Apellido: Gilces
+Nombre: Gonzalo
+Materia: 7542
+Comision: 001
+Fin
+
+Padron: 98192
+Apellido: Parra
+Nombre: Rodrigo
+Materia: 7542
+Comision: 001
+Fin
+
+Padron: 98737
+Apellido: Ferandez
+Nombre: Guillermo
+Materia: 7529
+Comision: 001
+Fin
+
+Padron: 88009
+Apellido: Acerenza
+Nombre: Maria
+Materia: 7529
+Comision: 002
+Fin
+
+Padron: 99234
+Apellido: Diaz
+Nombre: Carlos
+Materia: 7541
+Comision: 001
+Fin
+
+Padron: 10016
+Apellido: Dominguez
+Nombre: Ignacio
+Materia: 7541
+Comision: 001 
+Fin
+
+Padron: 90321
+Apellido: Perez
+Nombre: Alberto
+Materia: 7541
+Comision: 001
+Fin
+
+Padron: 91023
+Apellido: Mendez
+Nombre: Luis
+Materia: 7541
+Comision: 001
+Fin
+
+Padron: 90043
+Apellido: Cancian
+Nombre: Sonia
+Materia: 7547
+Comision: 005
+Fin
+
+Padron: 95532
+Apellido: Siro
+Nombre: Vicente
+Materia: 7547
+Comision: 002
+Fin
+
+Padron: 99928
+Apellido: Giles
+Nombre: Franco
+Materia: 7547
+Comision: 001
+Fin
+
+Padron: 93212
+Apellido: Mendoza
+Nombre: Ariel
+Materia: 7547
+Comision: 008
+Fin
+
+Padron: 99587
+Apellido: Azcuenaga
+Nombre: Mauro
+Materia: 7547
+Comision: 003
+Fin
+
+Padron: 88119
+Apellido: Quiroz
+Nombre: Soledad
+Materia: 7541
+Comision: 001
+Fin
+
+Padron: 90022
+Apellido: Valentino
+Nombre: Fernando
+Materia: 7501
+Comision: 003
+Fin
+
+Padron: 14412
+Apellido: Donado
+Nombre: Sandro
+Materia: 7519
+Comision: 002 
+Fin
+
+Padron: 99872
+Apellido: Bilis
+Nombre: Ignacio
+Materia: 7513
+Comision: 001
+Fin
+
+Padron: 97663
+Apellido: Tuluca
+Nombre: Sebastian
+Materia: 7529
+Comision: 001
+Fin
+
+Padron: 99983
+Apellido: Cantoni
+Nombre: Lidia
+Materia: 7528
+Comision: 001
+Fin
+
+Padron: 98332
+Apellido: Rodriguez
+Nombre: Ruben
+Materia: 7542
+Comision: 001
+Fin
+
+Padron: 99568
+Apellido: Guillermino
+Nombre: Alejandro
+Materia: 7542
+Comision: 001
+Fin
+
+Padron: 97472
+Apellido: Paez
+Nombre: Martin
+Materia: 7542
+Comision: 001
+Fin
+
+Padron: 95787
+Apellido: Facundo
+Nombre: Ezequiel
+Materia: 7529
+Comision: 001
+Fin
+
+Padron: 88949
+Apellido: Villa
+Nombre: Veronica
+Materia: 7529
+Comision: 002
+Fin
+
+Padron: 99112
+Apellido: Nuria
+Nombre: David
+Materia: 7541
+Comision: 001
+Fin
+
+Padron: 10552
+Apellido: Demian
+Nombre: Esteban
+Materia: 7541
+Comision: 001 
+Fin
+
+Padron: 96421
+Apellido: Cuenya
+Nombre: Ernesto
+Materia: 7541
+Comision: 001
+Fin
+
+Padron: 97663
+Apellido: Tartara
+Nombre: Carlos
+Materia: 7541
+Comision: 001
+Fin
+
+Padron: 91183
+Apellido: Lamuedra
+Nombre: Lina
+Materia: 7547
+Comision: 005
+Fin
+
+Padron: 92502
+Apellido: Gencarelli
+Nombre: Fernando
+Materia: 7547
+Comision: 002
+Fin
+
+Padron: 96758
+Apellido: Marias
+Nombre: Alejandra
+Materia: 7547
+Comision: 001
+Fin
+
+Padron: 98592
+Apellido: Logiurato
+Nombre: Manuel
+Materia: 7547
+Comision: 008
+Fin
+
+Padron: 93347
+Apellido: Iglesia
+Nombre: Emiliano
+Materia: 7547
+Comision: 003
+Fin
+
+Padron: 88829
+Apellido: Hoffman
+Nombre: Daniela
+Materia: 7541
+Comision: 001
+Fin
+
+Padron: 99072
+Apellido: Tassini
+Nombre: Gabriel
+Materia: 7501
+Comision: 003
+Fin
+
+Padron: 10222
+Apellido: Vainer
+Nombre: David
+Materia: 7519
+Comision: 002 
+Fin
+
+Padron: 96391
+Apellido: Russo
+Nombre: Emiliano
+Materia: 7513
+Comision: 001
+Fin
+
+Padron: 97963
+Apellido: Cruz
+Nombre: Esteban
+Materia: 7529
+Comision: 001
+Fin
+
+Padron: 99883
+Apellido: Resendiz
+Nombre: Laura
+Materia: 7528
+Comision: 001
+Fin
+
+Padron: 98552
+Apellido: Castillo
+Nombre: Federico
+Materia: 7542
+Comision: 001
+Fin
+
+Padron: 99778
+Apellido: Garzon
+Nombre: Daniel
+Materia: 7542
+Comision: 001
+Fin
+
+Padron: 98882
+Apellido: Deletierres
+Nombre: Alejandro
+Materia: 7542
+Comision: 001
+Fin
+
+Padron: 98237
+Apellido: Ardila
+Nombre: Guillemo
+Materia: 7529
+Comision: 001
+Fin
+
+Padron: 88099
+Apellido: Calvo
+Nombre: Federica
+Materia: 7529
+Comision: 002
+Fin
+
+Padron: 99994
+Apellido: Carlsoon
+Nombre: Mauricio
+Materia: 7541
+Comision: 001
+Fin
+
+Padron: 10334
+Apellido: Castro
+Nombre: Julian
+Materia: 7541
+Comision: 001 
+Fin
+
+Padron: 96091
+Apellido: Guevara
+Nombre: Julio
+Materia: 7541
+Comision: 001
+Fin
+
+Padron: 97293
+Apellido: Cienfuegos
+Nombre: Mario
+Materia: 7541
+Comision: 001
+Fin
+
+Padron: 99493
+Apellido: Rodriguez
+Nombre: Alejandra
+Materia: 7547
+Comision: 005
+Fin
+
+Padron: 98502
+Apellido: Martinez
+Nombre: David
+Materia: 7547
+Comision: 002
+Fin
+
+Padron: 99608
+Apellido: Garzon
+Nombre: Fernando
+Materia: 7547
+Comision: 001
+Fin
+
+Padron: 98792
+Apellido: Paez
+Nombre: Matias
+Materia: 7547
+Comision: 008
+Fin
+
+Padron: 98987
+Apellido: Felotini
+Nombre: Carlos
+Materia: 7547
+Comision: 003
+Fin
+
+Padron: 88939
+Apellido: Soria
+Nombre: Agostina
+Materia: 7541
+Comision: 001
+Fin
+
+Padron: 99122
+Apellido: Aymada
+Nombre: Pedro
+Materia: 7501
+Comision: 003
+Fin
+
+Padron: 10012
+Apellido: Tevez
+Nombre: Jose
+Materia: 7519
+Comision: 002 
+Fin
+
+Padron: 96421
+Apellido: Piccolini
+Nombre: Pablo
+Materia: 7513
+Comision: 001
+Fin
+
+Padron: 97123
+Apellido: Tunez
+Nombre: Juan
+Materia: 7529
+Comision: 001
+Fin
+
+Padron: 99143
+Apellido: Cuenca
+Nombre: Daniela
+Materia: 7528
+Comision: 001
+Fin
+
+Padron: 98432
+Apellido: Ruiz
+Nombre: Walter
+Materia: 7542
+Comision: 001
+Fin
+
+Padron: 99128
+Apellido: Lopez
+Nombre: Ruben
+Materia: 7542
+Comision: 001
+Fin
+
+Padron: 98112
+Apellido: Martinez
+Nombre: Mauro
+Materia: 7542
+Comision: 001
+Fin
+
+Padron: 98987
+Apellido: Velazquez
+Nombre: Santiago
+Materia: 7529
+Comision: 001
+Fin
+
+Padron: 88119
+Apellido: Vila
+Nombre: Maria
+Materia: 7529
+Comision: 002
+Fin
+
+Padron: 99122
+Apellido: Viscontico
+Nombre: Julian
+Materia: 7541
+Comision: 001
+Fin
+
+Padron: 10012
+Apellido: Alvarez
+Nombre: Julio
+Materia: 7541
+Comision: 001 
+Fin
+
+Padron: 96421
+Apellido: Lopez
+Nombre: Manuel
+Materia: 7541
+Comision: 001
+Fin
+
+Padron: 97123
+Apellido: Formosa
+Nombre: Mariano
+Materia: 7541
+Comision: 001
+Fin
+
+Padron: 99143
+Apellido: Gonzalez
+Nombre: Carmen
+Materia: 7547
+Comision: 005
+Fin
+
+Padron: 98432
+Apellido: Rodriguez
+Nombre: Carlos
+Materia: 7547
+Comision: 002
+Fin
+
+Padron: 99128
+Apellido: Goldman
+Nombre: Gonzalo
+Materia: 7547
+Comision: 001
+Fin
+
+Padron: 98112
+Apellido: Perez
+Nombre: Rodrigo
+Materia: 7547
+Comision: 008
+Fin
+
+Padron: 98900
+Apellido: Olivares
+Nombre: Patricio
+Materia: 7547
+Comision: 003
+Fin
