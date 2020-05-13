@@ -1,18 +1,30 @@
 #ifndef _AHORCADO_H_
 #define _AHORCADO_H_
 #include <iostream>
+#include "string.h"
+#include "tipos.h"
+#include "idiomas.h"
+using namespace std;
 //La numero de fallos coincidira con la longitud de la palabra a adivinar
 class Ahorcado
 {
 	private:
-	char * palabra_a_adivinar;
-	int n_fallos;
-	
+	uint n_intentos;
+	char * palabra_oculta;
+	char * palabra_descubierta;
+		
 	public:
 	Ahorcado();
-	int obtener_n_fallos (void);
-	void establecer_n_fallos (int n);
-	char * obtener_palabra_a_adivinar (void);
-	void establecer_n_fallos (char * palabra);
+	Ahorcado (uint n_intentos, char * palabra_oculta);
+	Ahorcado (const Ahorcado & a);
+	~Ahorcado();
+	uint obtener_n_intentos (void);
+	void establecer_n_intentos (uint n_intentos);
+	char * obtener_palabra_oculta (void);
+	void establecer_palabra_oculta (char * palabra_oculta);
+	char * obtener_palabra_descubierta (void);
+	void establecer_palabra_descubierta (char * palabra_descubierta);
+	estado_t arriesgar (char letra);
+	estado_t arriesgar (char * cadena);
 };
 #endif
