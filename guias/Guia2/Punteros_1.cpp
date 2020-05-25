@@ -3,8 +3,8 @@
 
 using namespace std;
 
-typedef int* Pint;
-typedef char* Pchar;
+typedef int * Pint;
+typedef char * Pchar;
 
 /*
   Datos: 
@@ -16,7 +16,7 @@ typedef char* Pchar;
 int main(){
 
   Pint A, C, J, F;
-  Pint* B;
+  Pint * B;
   Pchar D, E;
   char G;
   int H;
@@ -26,15 +26,15 @@ int main(){
   A = new int;
   F = new int;
   (*A) = 70; 
-  cout << H << G << (*A) << endl;
-  B = &A;
+  cout << H << ' ' << G << ' ' << (*A) << endl;//64 C 70
+  B = &A; 
   (*F) = H;
-  cout << (**B) << (*A) << endl;
+  cout << (**B) << ' ' << (*A) << endl;//70 70
   D = (Pchar)F;
   E = (Pchar)(*B);
   C = (Pint)D;
   J = (Pint)E;
-  cout << (*D) << (*E) << (**B) << endl;
+  cout << (*D) << (*E) << (**B) << endl;//@ F 64  x
   (*C) = (*C) - 62;
   (*J) = (*J) - (*J);
   
@@ -52,5 +52,3 @@ int main(){
 
   return 0;
 }
-
-

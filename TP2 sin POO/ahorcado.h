@@ -1,22 +1,16 @@
 #ifndef _AHORCADO_H_
 #define _AHORCADO_H_
 #include <iostream>
-#include <stdio.h>
 #include "string.h"
 #include "tipos.h"
 #include "idiomas.h"
 
-#define SIMBOLO_DESCUBIERTO '-'
+#define SIMBOLO_OCULTO '-'
 #define NULO 0
-#define SIMBOLO_FIN_DE_CADENA '\0'
+#define FIN_DEL_ARREGLO '\0'
 #define POSICION_INICIAL 0
-#define ESPACIO_FIN_DE_CADENA 1
-#define SIMBOLO_BARRA  "#######################################"
-#define N_FRACASO_LETRA 1
-#define N_FRACASO_PALABRA 2
 
 using namespace std;
-
 
 class Ahorcado
 {
@@ -24,7 +18,6 @@ class Ahorcado
 	uint n_intentos;
 	char * palabra_oculta;
 	char * palabra_descubierta;
-	estado_t estado;
 		
 	public:
 	//Constructor por defecto
@@ -41,7 +34,7 @@ class Ahorcado
 	//se les pide memoria dinámica, a this->palabra_oculta se le copia el contenido de palabra_oculta,
 	//mientras que a this->palabra_descubierta se le copia guiones.
 	//Imprime la dirección de memoria de palabra_oculta y palabra_descubierta
-	Ahorcado (uint n, char * palabra);
+	Ahorcado (uint n_intentos, char * palabra_oculta);
 	
 	//Constructor por copia
 	//Precondiciones: a es del tipo Ahorcado y se para por referencia
@@ -74,7 +67,7 @@ class Ahorcado
 	//Establece palabra oculta
 	//Precondiciones: palabra_oculta es del tipo char * y no apunta al NULO
 	//Postcondiciones: this_palabra_oculta = palabra_oculta
-	void establecer_palabra_oculta (const char * palabra);
+	void establecer_palabra_oculta (char * palabra_oculta);
 	
 	//Obtiene la palabra descubierta
 	//Precondiciones:-
@@ -84,19 +77,16 @@ class Ahorcado
 	//Establece palabra descubierta
 	//Precondiciones: palabra_descubierta es del tipo char * y no apunta al NULO
 	//Postcondiciones: this_palabra_descubierta = palabra_descubierta
-	void establecer_palabra_descubierta (uint longitud_palabra);
+	void establecer_palabra_descubierta (char * palabra_descubierta);
 	
 	//Arriesga una letra
 	//Precondiciones: letra es de tipo char 
 	//Postcondiciones: devuelve un estado para que dependiendo de él se modifique ahorcado
 	estado_t arriesgar (char letra);
 	
-	//Arriesga una cadena
-	//Precondiciones: cadena es de tipo char * y al menos longitud 2
-	//Postcondiciones: devuelve un estado
+	//Arrienda una cadena
+	//Precondiciones: cadena es de tipo char *
+	//Postcondiciones: devuelve un estado para que dependiendo de él se modifique ahorcado
 	estado_t arriesgar (char * cadena);
-	
-	void mostrar_menu (void);
 };
-
 #endif

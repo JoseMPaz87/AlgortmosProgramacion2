@@ -16,6 +16,6 @@ const uint SALTO_DE_LINEA = '\n';
 //Precondiciones:-
 //Postcondiciones:Asegura que argc sea exactamente 3, y que la longitud de 
 //la palabra a adivinar sea de la menos 3
-estado_t validar_entrada (int argc, const char * argv[]);
+estado_t validar_entrada (int argc, char * argv[]);
 
 #endif

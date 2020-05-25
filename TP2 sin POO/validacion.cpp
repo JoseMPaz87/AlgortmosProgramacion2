@@ -1,6 +1,6 @@
 #include "validacion.h"
 
-estado_t validar_entrada (int argc, const char * argv[])
+estado_t validar_entrada (int argc, char * argv[])
 {	
 	char * c;
 	long int n_intentos;
@@ -12,7 +12,7 @@ estado_t validar_entrada (int argc, const char * argv[])
 		return LONGITUD_PALABRA;
 	
 	if ((n_intentos = strtol (argv[POSICION_INTENTOS], &c, BASE_DECIMAL)) < CANTIDAD_MINIMA_INTENTOS)
-		return ERROR_CANTIDAD_INTENTOS;
+		return CANTIDAD_INTENTOS;
 	
 	if (*c && *c != SALTO_DE_LINEA)
 		return NO_INGRESO_UN_NUMERO;
