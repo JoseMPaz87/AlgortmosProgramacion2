@@ -2,21 +2,18 @@
 
 Triangulo::Triangulo ()
 {
-	cout << "Se construye por defecto un triangulo" << endl;
 	base = NULO;
 	altura = NULO;
 }
 
-Triangulo::Triangulo (double bas, double alt, string col) : Figura(col)
+Triangulo::Triangulo (double bas, double alt, string tipo) : Figura(tipo)
 {
-	cout << "Se construye con parametro un triangulo" << endl;
 	base = bas;
 	altura = alt;
 }
 
 Triangulo::~Triangulo ()
 {
-
 }
 
 double Triangulo::obtener_base ()
@@ -36,9 +33,8 @@ double Triangulo::superficie ()
 
 void Triangulo::mostrar ()
 {
-	cout << "Figura Triangulo, cuyos parametros son:" << endl;
-	cout << "Base: " << obtener_base () << endl;
-	cout << "Altura: " << obtener_altura () << endl;	
-	cout << "Color: " << obtener_color () << endl; 
-	cout << "Superficie: " << superficie () << endl;  
+	cout << ETIQUETA_TRIANGULO << endl;
+	cout << TAB << ETIQUETA_BASE << obtener_base () << endl;
+	cout << TAB << ETIQUETA_ALTURA << obtener_altura () << endl;	
+	cout << TAB << ETIQUETA_SUPERFICIE << superficie () << endl; 
 }

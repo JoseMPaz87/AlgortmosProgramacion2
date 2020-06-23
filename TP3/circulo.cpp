@@ -2,19 +2,16 @@
 
 Circulo::Circulo ()
 {
-	cout << "Se construye por defecto un circulo" << endl;
 	radio = NULO;
 }
 
-Circulo::Circulo (double rad, string col): Figura (col)
+Circulo::Circulo (double rad, string tipo): Figura (tipo)
 {
-	cout << "Se construye con parametro un circulo" << endl;
 	radio = rad;
 }
 
 Circulo::~Circulo ()
 {
-	cout << "Se destruye un circulo" << endl;
 }
 
 double Circulo::obtener_radio ()
@@ -29,8 +26,8 @@ double Circulo::superficie ()
 
 void Circulo::mostrar ()
 {
-	cout << "Figura Circulo, cuyos parametros son:" << endl;
-	cout << "Radio: " << obtener_radio () << endl;
-	cout << "Color: " << obtener_color () << endl; 
-	cout << "Superficie: " << superficie () << endl; 
+	cout << ETIQUETA_CIRCULO << endl;
+	cout << TAB << ETIQUETA_RADIO << obtener_radio () << endl;
+	cout << TAB << ETIQUETA_SUPERFICIE << superficie () << endl; 
 }
+

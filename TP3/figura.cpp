@@ -2,15 +2,15 @@
 
 Figura::Figura ()
 {
-	std::cout << "Se construye una figura" << std::endl;
 }
 
-Figura::Figura (string col)
+Figura::Figura (string t)
 {
-	color = col;
+	tipo = t;
 }
 
-string Figura::obtener_color ()
+string Figura::obtener_tipo ()
 {
-	return color;
+	return tipo;
 }
+

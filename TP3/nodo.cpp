@@ -1,41 +1,29 @@
 #include "nodo.h"
-/*
-// Constructor
-Nodo::Nodo ( Dato d ) 
+
+Nodo::Nodo ()
 {
-	std::cout << " Se construye el nodo ";
-	std::cout << std::hex << ( void * ) this << std::endl ;
-	dato = d ;
-	psig = 0;
+	dato = NULL;
+	siguiente = NULL;
 }
 
-// Destructor
-Nodo::~Nodo () 
+Dato * Nodo::obtener_dato () 
 {
-	std::cout << " Se destruye el nodo ";
-	std::cout << std::hex << ( void *) this << std::endl ;
+	return dato;
 }
 
-// Cambia el dato
-void Nodo::asignarDato ( Dato d ) 
+void Nodo::establecer_dato (Dato * d)
 {
-	dato = d ;
+	dato = d;
 }
 
-// Obtiene el dato
-Dato Nodo::obtenerDato () 
+Nodo * Nodo::obtener_siguiente () 
 {
-	return dato ;
+	return siguiente;
 }
 
-// cambia el puntero
-void Nodo::asignarSiguiente ( Nodo * ps ) 
+void Nodo::establecer_siguiente (Nodo * sig)
 {
-	psig = ps ;
+	siguiente = sig;
 }
 
-// obtiene el puntero
-Nodo * Nodo::obtenerSiguiente () 
-{
-	return psig ;
-}*/
+

@@ -1,0 +1,32 @@
+#ifndef _CASTELLANO_H_
+#define _CASTELLANO_H_
+
+#define ETIQUETA_ERROR_N_ARGUMENTOS "Error en la cantidad de argumentos"
+#define ETIQUETA_ERROR_ABRIR_ARCHIVO "Error al abrir el archivo"
+#define ETIQUETA_CIRCULO "Circulo" 
+#define ETIQUETA_RECTANGULO "Rectángulo"
+#define ETIQUETA_TRIANGULO "Triángulo"
+#define ETIQUETA_RADIO "Radio: "
+#define ETIQUETA_BASE "Base: "
+#define ETIQUETA_ALTURA "Altura: "
+#define ETIQUETA_SUPERFICIE "Superficie: "
+#define ETIQUETA_ERROR_POSICION "Error posición fuera de rango"
+#define ETIQUETA_N_NODOS "Cantidad de nodos: "
+#define ETIQUETA_TITULO_MENU "################### Figuras  Geométricas ##################"
+#define ETIQUETA_MOSTRAR_FIGURA_POR_POSICION "1.- Mostrar figura por posición"
+#define ETIQUETA_ELIMINAR_FIGURA_POR_POSICION "2.- Eliminar figura por posición"
+#define ETIQUETA_AGREGAR_FIGURA "3.- Agregar nueva figura"
+#define ETIQUETA_MOSTRAR_TODAS_LAS_FIGURAS "4.- Mostrar todas las figuras"
+#define ETIQUETA_MOSTRAR_FIGURA_MAYOR_SUPERFICIE "5.- Mostrar figura con mayor superficie"
+#define ETIQUETA_MOSTRAR_FIGURA_MENOR_SUPERFICIE "6.- Mostrar figura con menor superficie"
+#define ETIQUETA_FIN_PROGRAMA "7.- Terminar el programa"
+#define FIN_PROGRAMA "Fin del programa"
+#define ERROR_OPCION_INVALIDA "Error, ingreso una opción invalida"
+#define FIGURA_INVALIDA  "Error, ingreso un tipo invalido"
+#define INGRESO_DE_FIGURA "Ingrese el tipo de figura(C , R , T): "
+#define INGRESO_DE_RADIO "Ingrese radio: "
+#define INGRESO_DE_BASE "Ingrese base: "
+#define INGRESO_DE_ALTURA "Ingrese altura: "
+#define INGRESO_DE_POSICION "Ingrese posición: "
+
+#endif

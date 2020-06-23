@@ -1,0 +1,32 @@
+#ifndef _INGLES_H_
+#define _INGLES_H_
+
+#define ETIQUETA_ERROR_N_ARGUMENTOS "Error in number of arguments"
+#define ETIQUETA_ERROR_ABRIR_ARCHIVO "Error opening file"
+#define ETIQUETA_CIRCULO "Circle" 
+#define ETIQUETA_RECTANGULO "Rectangle"
+#define ETIQUETA_TRIANGULO "Triangle"
+#define ETIQUETA_RADIO "Radio: "
+#define ETIQUETA_BASE "Base: "
+#define ETIQUETA_ALTURA "Height: "
+#define ETIQUETA_SUPERFICIE "Surface: "
+#define ETIQUETA_ERROR_POSICION "Error, position out of range"
+#define ETIQUETA_N_NODOS "Number of nodes: "
+#define ETIQUETA_TITULO_MENU "################### Geometric figures ###################"
+#define ETIQUETA_MOSTRAR_FIGURA_POR_POSICION "1.- Show figure by position"
+#define ETIQUETA_ELIMINAR_FIGURA_POR_POSICION "2.- Delete figure by position"
+#define ETIQUETA_AGREGAR_FIGURA "3.- Add new figure"
+#define ETIQUETA_MOSTRAR_TODAS_LAS_FIGURAS "4.- Show all figures"
+#define ETIQUETA_MOSTRAR_FIGURA_MAYOR_SUPERFICIE "5.- Show figure with larger surface"
+#define ETIQUETA_MOSTRAR_FIGURA_MENOR_SUPERFICIE "6.- Show figure with smaller surface"
+#define ETIQUETA_FIN_PROGRAMA "7.- Terminar el programa"
+#define FIN_PROGRAMA "End the program"
+#define ERROR_OPCION_INVALIDA "Error, I entered an invalid option"
+#define FIGURA_INVALIDA  "Error, I entered an invalid type"
+#define INGRESO_DE_FIGURA "Enter the type of figure(C , R , T): "
+#define INGRESO_DE_RADIO "Enter radio: "
+#define INGRESO_DE_BASE "Enter base: "
+#define INGRESO_DE_ALTURA "Enter height: "
+#define INGRESO_DE_POSICION "Enter position: "
+
+#endif

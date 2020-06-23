@@ -2,21 +2,18 @@
 
 Rectangulo::Rectangulo ()
 {
-	cout << "Se construye por defecto un rectangulo" << endl;
 	base = NULO;
 	altura = NULO;
 }
 
-Rectangulo::Rectangulo (double bas, double alt, string col): Figura (col)
+Rectangulo::Rectangulo (double bas, double alt, string tipo): Figura (tipo)
 {
-	cout << "Se construye con parametro un rectangulo" << endl;
 	base = bas;
 	altura = alt;
 }
 
 Rectangulo::~Rectangulo ()
 {
-	cout << "Se destruye un rectangulo" << endl;
 }
 
 double Rectangulo::obtener_base ()
@@ -36,9 +33,8 @@ double Rectangulo::superficie ()
 
 void Rectangulo::mostrar ()
 {
-	cout << "Figura Rectangulo, cuyos parametros son:" << endl;
-	cout << "Base: " << obtener_base () << endl;
-	cout << "Altura: " << obtener_altura () << endl;	
-	cout << "Color: " << obtener_color () << endl; 
-	cout << "Superficie: " << superficie () << endl;  
+	cout << ETIQUETA_RECTANGULO << endl;
+	cout << TAB << ETIQUETA_BASE << obtener_base () << endl;
+	cout << TAB << ETIQUETA_ALTURA << obtener_altura () << endl;	
+	cout << TAB << ETIQUETA_SUPERFICIE << superficie () << endl;  
 }
